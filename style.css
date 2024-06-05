@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+ --DarkSlateGrey: hsl(234, 29%, 20%);
+ --CharcoalGrey: hsl(235, 18%, 26%);
+ --Grey: hsl(231, 7%, 60%);
+ --White: hsl(0, 0%, 100%);
+ --Tomato: hsl(4, 100%, 67%);
+}
+
+body{
+    font-family: sans-serif;
+    height: 90VH;
+    background-color:var(--DarkSlateGrey) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;    
+    padding: 25px;
+    background-color:var(--White);
+    display: flex;
+    border-radius: 15px;    
+}
+
+.content{
+    width: 450px;
+    padding-right: 40px;
+}
+
+.title{
+    margin-bottom: 30px;
+    font-size: 59px;
+    font-weight: 900;
+}
+
+.parrafo{
+    margin-bottom: 17px;
+    padding-right: 90px;
+}
+
+.list{
+
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.email{
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.lblemail{
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.inpemail{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btnSuscribe{
+    background-color: var(--Tomato);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btnSuscribe:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+
+.thanks{
+    display: none;
+    position: absolute;
+    top: 20%;
+    width: 400px;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 30dp;
+}
+
+.thanks_title{
+    font-size:60px;
+    font-weight: 900px;
+}
+.attribution{
+    display: none;
+}
+
+.thaks_description{
+    margin-bottom: 20px;
+}
+
+.btn_thank{
+    background-color: var(--Tomato);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+span{
+    font-weight: 700;
+}
